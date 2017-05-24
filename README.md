@@ -17,7 +17,9 @@ python ryanair-seats.py
 
 And then log-in.
 
-[Screenshot](screenshot.png)
+<p align="center">
+<img src="screenshot.png" alt="Screenshot" />
+</p>
 
 ### TO DO
 - Currently the tool works only for one person, I need more investigation to understand how seats are allocated for more than one person.
@@ -30,7 +32,9 @@ And then log-in.
 Ryanair let customer buy a seat anytime for the flight they booked. Thanks to this, it's possible to get the list of the seats already reserved. With some analysis on the "Allocation Algorithm" it was possible to understand how the allocation works: Seats are allocated from the middle of the plane, to the ends (both top and down together). Seats are allocated (generally) from A to F.   If there is enough space to allocate all passengers of a booking, then the current row is filled. If passenger exceeded the current row space, then the system decide to put them in a new row.  
 Emergency exit are "filled" when the other seats are allocated.
 
-[Seats](seats.png)
+<p align="center">
+<img src="seats.png" alt="Seats" />
+</p>
 
 #### What can I do with this tool?
 This tool will try to predict which seat you will get for free if you will do the check-in just after running the tool :P (If nobody else will do check-in after you run the script but before you do the check-in).  
