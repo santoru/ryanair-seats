@@ -36,6 +36,7 @@ Emergency exit are "filled" when the other seats are allocated.
 <img src="seats.png" alt="Seats" />
 </p>
 
+
 #### What can I do with this tool?
 This tool will try to predict which seat you will get for free if you will do the check-in just after running the tool :P (If nobody else will do check-in after you run the script but before you do the check-in).  
 Or at least it will try, it's pretty accurate but not perfect yet :D
