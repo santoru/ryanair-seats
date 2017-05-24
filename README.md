@@ -27,17 +27,17 @@ And then log-in.
 ### FAQ
 
 #### How it works?
-Ryanair let customer buy a seat anytime for the flight they booked. Thanks to this, it's possible to get the list of the seats already reserved. With some analysis on the "Allocation Algorithm" it was possible to understand how the allocation works: Seats are allocated from the middle of the plane, to the ends (both top and down together). Seats are allocated (generally) from A to F.\\ If there is enough space to allocate all passengers of a booking, then the current row is filled. If passenger exceeded the current row space, then the system decide to put them in a new row.\\
+Ryanair let customer buy a seat anytime for the flight they booked. Thanks to this, it's possible to get the list of the seats already reserved. With some analysis on the "Allocation Algorithm" it was possible to understand how the allocation works: Seats are allocated from the middle of the plane, to the ends (both top and down together). Seats are allocated (generally) from A to F.   If there is enough space to allocate all passengers of a booking, then the current row is filled. If passenger exceeded the current row space, then the system decide to put them in a new row.  
 Emergency exit are "filled" when the other seats are allocated.
 
 [Seats](seats.png)
 
 #### What can I do with this tool?
-This tool will try to predict which seat you will get for free if you will do the check-in just after running the tool :P (If nobody else will do check-in after you run the script but before you do the check-in).\\
+This tool will try to predict which seat you will get for free if you will do the check-in just after running the tool :P (If nobody else will do check-in after you run the script but before you do the check-in).  
 Or at least it will try, it's pretty accurate but not perfect yet :D
 
 #### So, can I choose my seat?
-Yes, you can! You just have to pay few euro and get your seat :)\\
+Yes, you can! You just have to pay few euro and get your seat :)  
 This tool doesn't want to provide a way to get free seats, but just to show how Ryanair seats are allocated.
 
 ---
