@@ -10,9 +10,13 @@ If somebody wants to update the algorithm, just send a pull requests or write to
 
 ### USAGE
 It's not that hard :P
-
+You will just need to install *requests*
 ```
-python ryanair-seats.py
+pip install requests
+```
+...and then
+```
+./ryanair-seats.py
 ```
 
 And then log-in.
